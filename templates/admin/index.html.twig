@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Profil{% endblock %}
+
+{% block content %}
+    
+
+
+
+
+{% endblock %}
+
+
+{% block titlecontent %}Accueil{% endblock %}
+
+
+
+
+
+{% block javascripts %}
+      {{parent()}}
+<script>
+  $(function () {
+    $('#profils').DataTable()
+
+  })
+</script>
+{% endblock %}
